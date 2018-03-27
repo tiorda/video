@@ -38,7 +38,7 @@ class USBDriveReader(object):
 
     def idle_message(self):
         """Return a message to display when idle and no files are found."""
-        return 'Kein Laufwerk gefunden oder Laufwerk beschädigt.'
+        return 'Bitte Laufwerk installieren oder Service kontaktieren.'
 
 
 def create_file_reader(config):
